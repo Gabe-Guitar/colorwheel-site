@@ -1,0 +1,230 @@
+/* General Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fef8f3;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    color: #ff6f61;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+.feeling-wheel {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Emotion Buttons */
+details {
+    margin-bottom: 15px;
+}
+
+summary {
+    list-style: none;
+    cursor: pointer;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Emotion Colors */
+.happy {
+    background-color: #fdd835;
+    color: #fff;
+}
+
+.happy:hover {
+    background-color: #fbc02d;
+}
+
+.sad {
+    background-color: #64b5f6;
+    color: #fff;
+}
+
+.sad:hover {
+    background-color: #42a5f5;
+}
+
+.angry {
+    background-color: #e57373;
+    color: #fff;
+}
+
+.angry:hover {
+    background-color: #ef5350;
+}
+
+.afraid {
+    background-color: #ba68c8;
+    color: #fff;
+}
+
+.afraid:hover {
+    background-color: #ab47bc;
+}
+
+.surprised {
+    background-color: #ffb74d;
+    color: #fff;
+}
+
+.surprised:hover {
+    background-color: #ff9800;
+}
+
+.peaceful {
+    background-color: #81c784;
+    color: #fff;
+}
+
+.peaceful:hover {
+    background-color: #66bb6a;
+}
+
+.disgusted {
+    background-color: #8d6e63;
+    color: #fff;
+}
+
+.disgusted:hover {
+    background-color: #7e5c4e;
+}
+
+/* Subcategory Styles */
+.dropdown {
+    margin-left: 20px;
+    padding: 10px 0;
+}
+
+.subcategory {
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 5px 0;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Specific Emotion Styles */
+.specific-dropdown {
+    margin-left: 20px;
+}
+
+.specific {
+    padding: 8px 15px;
+    margin: 5px 0;
+    font-size: 16px;
+    text-align: left;
+    border-radius: 5px;
+    background: #f9f9f9;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Matching Subcategory Colors with Primary Emotion */
+.happy .subcategory {
+    background-color: #fff9c4; /* Light Yellow for Happy */
+}
+
+.sad .subcategory {
+    background-color: #bbdefb; /* Light Blue for Sad */
+}
+
+.angry .subcategory {
+    background-color: #ffcdd2; /* Light Red for Angry */
+}
+
+.afraid .subcategory {
+    background-color: #e1bee7; /* Light Purple for Afraid */
+}
+
+.surprised .subcategory {
+    background-color: #ffe0b2; /* Light Orange for Surprised */
+}
+
+.peaceful .subcategory {
+    background-color: #c8e6c9; /* Light Green for Peaceful */
+}
+
+.disgusted .subcategory {
+    background-color: #d7ccc8; /* Light Brown for Disgusted */
+}
+
+/* Hover Effects for Subcategories */
+.subcategory:hover {
+    transform: translateX(10px);
+}
+
+.happy .subcategory:hover {
+    background-color: #fff59d; /* Lighter Yellow for Happy Hover */
+}
+
+.sad .subcategory:hover {
+    background-color: #90caf9; /* Lighter Blue for Sad Hover */
+}
+
+.angry .subcategory:hover {
+    background-color: #ef9a9a; /* Lighter Red for Angry Hover */
+}
+
+.afraid .subcategory:hover {
+    background-color: #d1c4e9; /* Lighter Purple for Afraid Hover */
+}
+
+.surprised .subcategory:hover {
+    background-color: #ffcc80; /* Lighter Orange for Surprised Hover */
+}
+
+.peaceful .subcategory:hover {
+    background-color: #a5d6a7; /* Lighter Green for Peaceful Hover */
+}
+
+.disgusted .subcategory:hover {
+    background-color: #bcaaa4; /* Lighter Brown for Disgusted Hover */
+}
+
+/* Specific Emotion Hover */
+.specific:hover {
+    background-color: #f2f2f2;
+}
+
+.happy .specific:hover {
+    background-color: #fff59d; /* Lighter Yellow for Specific Hover */
+}
+
+.sad .specific:hover {
+    background-color: #90caf9; /* Lighter Blue for Specific Hover */
+}
+
+.angry .specific:hover {
+    background-color: #ef9a9a; /* Lighter Red for Specific Hover */
+}
+
+.afraid .specific:hover {
+    background-color: #d1c4e9; /* Lighter Purple for Specific Hover */
+}
+
+.surprised .specific:hover {
+    background-color: #ffcc80; /* Lighter Orange for Specific Hover */
+}
+
+.peaceful .specific:hover {
+    background-color: #a5d6a7; /* Lighter Green for Specific Hover */
+}
+
+.disgusted .specific:hover {
+    background-color: #bcaaa4; /* Lighter Brown for Specific Hover */
+}
